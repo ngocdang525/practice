@@ -1,0 +1,36 @@
+ul{
+    width: 250px; /*the width of the menu_parent, chieu rong*/
+}
+/*menu parent_level1*/
+ul li{
+    height:30px; /*chieu cao 30px cua moi muc home/news/science/laws*/
+    line-height: 30px; /*khoang cach chieu cao cua cac chu*/
+    list-style: none; /*not showing the dot beginning - ko hien cham dau dong menu*/
+    padding: 0px 10px;/*day ndung menu vao 10cm trai phai*/
+    background: pink;
+    border: solid 1px red;/*dien vien day 1px va mau do*/
+    border-bottom: none;/*menu lien ke nhau nen border-bottom ko can*/
+    position: relative;/*chon lam khung*/
+}
+
+ul li:last-child{ /*vi co property border-bottom:none so in the end of menu will not show the border in bottom 
+    so need the li:last-child*/
+    border-bottom: solid 1px red;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+/*menu_child level_2* inside menu_parent*/
+ul li ul{
+    position: absolute;
+    top:-1px;/*cho ngang hang voi menu_parent, vi menu_parent has border: 1px so have to minus 1px*/
+    right: -250px;/*outside and longer than 250px so -250px*/
+    display: none;/*will not show at first*/
+}
+
+/*Because menu_child is visible if the menu_child is shown, we use hover mouse on menu_parent*/
+ul li:hover ul{
+display: block;
+}

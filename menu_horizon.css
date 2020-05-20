@@ -1,0 +1,32 @@
+
+ul {
+    list-style-type:none;/*delete the black dots at begining */
+    margin:0;
+    padding:0;
+    border: 1px solid #e0dede;
+    overflow:hidden; /*over content will be cut and hide*/
+    background-color: #f0f0f0;
+}
+
+ul li{
+    float: left ; /*content start from left */
+   border-right: 1px solid #bbb;/*đường viền bên phải của từng mục*/
+}
+ul li:last-child{ /*viền*/
+    border-right:none;
+}
+ul li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black; 
+}
+
+li a:hover{
+    background: white;
+}
+
+.active{
+    background: white;
+}

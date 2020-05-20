@@ -1,0 +1,24 @@
+body{
+    padding:0;
+    margin:0;
+    background: #000;
+}
+.container{
+    position: absolute;
+    top:50%; /*content in center: top50%, left50%, transform: translate(-50%, -50%)*/
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 1020px;
+}
+
+.container .box{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    width: 250px;
+    height: 250px;
+}
+
+.container .box img{
+    width:100%;
+}
