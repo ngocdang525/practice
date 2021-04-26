@@ -1,0 +1,76 @@
+.plant-details{
+    width: 800px;
+    min-width: 600px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.plant-details__container{
+    background-color: white;
+    box-shadow: 0 10px 5px 0 rgba(127, 255, 212, 0.308);
+}
+.plant-details__header{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+.plant-details__back{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    margin-right:5px;
+}
+.plant-details__content{
+    display: flex;
+    padding: 20px 0 20px;
+}
+.plant-details__image{
+    width: 40%;
+    text-align: center;
+}
+img{
+    width: 250px;
+    max-width: 100%;
+}
+.plant-details__info{
+    width: 60%;
+    border-left: 1px solid #eee;
+    color: gray;
+    padding-left:20px
+
+}
+.plant-details__tittle{
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.plant-details__sub{
+    font-size: 18px;
+    text-transform: uppercase;
+   
+}
+.plant-details__price{
+    margin: 20px 0 20px;
+    font-weight: bold;
+    font-size: 24px;
+    display: block; /*span inline so display block*/
+}
+.plant-details__desc{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.plant-details__btn{
+    outline: none;
+    cursor:pointer;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+    padding: 10px 5px;
+}
