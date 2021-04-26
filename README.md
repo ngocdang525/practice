@@ -1,2 +1,2 @@
-# practice
-using HTML, CSS, BEM
+# practice using HTML, CSS, BEM
+
